@@ -1,16 +1,15 @@
-
-var CONSUMER_KEY = "***";
-var CONSUMER_SECRET = "***";
-
-var OWNER_SCREEN_NAME = "ownerName";//list's owner
-var SLUG = "listName";//list's name
-
 /**
-* define the cmd string
+* A simple twitter list listener. 
+* Imporve from https://gist.github.com/3303060  thanks to Johannes Nagl
+* @dlqingxi
+* You can found a demo by this URL: https://docs.google.com/spreadsheet/ccc?key=0Av3XyC66WqmudDhZOXZRYXZwNVdGVFBTUWxCWkd5dWc#gid=0
 */
-var CMD_FAV = "fav";
-var CMD_RT = "rt";
-var CMD_REPLY = "reply";
+
+var CONSUMER_KEY = "===========";
+var CONSUMER_SECRET = "===============";
+
+var OWNER_SCREEN_NAME = "======";//list's owner
+var SLUG = "=========";//list's name
 
 var TZ = "GMT+8";//the timezone 
 var BASE = 33;//the tweets would showed from this line
@@ -214,9 +213,9 @@ function onEdit() {
     }
     
     var validCommands = {
-      CMD_FAV: "fave",
-      CMD_RT: "retweet",
-      CMD_REPLY: "reply"
+      "<3": "fave",
+      "rt" : "retweet",
+      "reply": "reply"
     };
     
     var app = UiApp.createApplication().setTitle('What do you want to tweet today?');
