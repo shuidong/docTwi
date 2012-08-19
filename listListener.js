@@ -2,7 +2,7 @@
 * A simple twitter list listener. 
 * Imporve from https://gist.github.com/3303060  thanks to Johannes Nagl
 * @dlqingxi
-* You can found a demo by this URL: https://docs.google.com/spreadsheet/ccc?key=0Av3XyC66WqmudDhZOXZRYXZwNVdGVFBTUWxCWkd5dWc#gid=0
+* You can find a demo by this URL: https://docs.google.com/spreadsheet/ccc?key=0Av3XyC66WqmudDhZOXZRYXZwNVdGVFBTUWxCWkd5dWc#gid=0
 */
 
 var CONSUMER_KEY = "===========";
