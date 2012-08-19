@@ -1,5 +1,5 @@
 /**
-* A simple twitter list listener. 
+* A simple twitter backup util script. 
 * Imporve from https://gist.github.com/3303060  thanks to Johannes Nagl
 * @dlqingxi
 * You can find a demo by this URL: https://docs.google.com/spreadsheet/ccc?key=0Av3XyC66WqmudEFja18zcGpNblowMXZidTg3Tlg4YkE#gid=0
